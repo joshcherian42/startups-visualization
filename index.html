@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Startups Visualization</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic' rel='stylesheet' type='text/css'>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/velocity.min.js"></script>
+	<script type="text/javascript" src = "js/script.js"></script>
+
+	<script type="text/javascript">
+
+	var monad;
+	function init() {
+		monad = new monadic_viz();	
+		monad.load();
+	}
+
+	</script>
+
+</head>
+<body onload = "init()">
+		<h1 id ="header">Startups Visualization</h1>
+
+	<nav id="info">
+		<h2 id ="header">Companies</h2>
+		<ul>
+			<li><button id = "Scanadu" type="button">Scanadu</button></li>
+			<li><button id = "LIFX" type="button">LIFX</button></li>
+			<li><button id = "Misfit" type="button">Misfit</button></li>
+			<li><button id = "Formlabs" type="button">Formlabs</button></li>
+			<li><button id = "PonoMusic" type="button">PonoMusic</button></li>
+			<li><button id = "OcculusRift" type="button">Occulus Rift</button></li>
+			<li><button id = "Tile" type="button">Tile</button></li>
+			<li><button id = "MinistrySupply" type="button">Ministry of Supply</button></li>
+			<li><button id = "Ouya" type="button">Ouya</button></li>
+			<li><button id = "Kano" type="button">Kano</button></li>
+			<li><button id = "Adapteva" type="button">Adapteva</button></li>
+			<li><button id = "SmartThings" type="button">Smart Things</button></li>
+
+		</ul>
+		<h2 id ="header">Sources</h2>
+		<ul id = "Categories">
+			<li><button id = "kickstarter" type="button">Kickstarter</button></li>
+			<li><button id = "twitter" type="button">Twitter</button></li>
+			<li><button id = "crunchbase" type="button">Crunchbase/Angel List</button></li>
+			<li><button id = "reddit" type="button">Reddit</button></li>
+			<li><button id = "hacknews" type="button">Hacker News</button></li>
+			<li><button id = "producthunt" type="button">ProductHunt</button></li>
+			<li><button id = "techcrunch" type="button">Tech Crunch</button></li>
+		</ul>
+	</nav>
+
+</div>
+<div id="center">
+</div>	
+<div id="instructions">
+		<p id="inst_title">Instructions</p>
+		<p>Click on a <strong>company</strong> to display all the data related to that company<br>Click on a <strong>category</strong> to display data from that source for each company</p>
+</div>
+<div id="company">
+	<p></p>
+</div>
+<div id="canvas"></div>
+</body>	
+</html>
