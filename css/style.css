@@ -51,9 +51,10 @@ button {
 
 #instructions {
 	font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
-	position: relative;
+	position: fixed;
+	top: 50%;
 	left: 55%;
-	transform: translate(-50%, -350%);
+	transform: translate(-50%, -50%);
 	color:white;
 	opacity: 0.9;
 	z-index: 1;

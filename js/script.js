@@ -24,6 +24,7 @@ function monadic_viz() {
 		svg_canvas.setAttribute("width","100%");
 		svg_canvas.setAttribute("id", "svg_canvas");
 		$('#canvas').append(svg_canvas);
+		
 		/*Initialize Data Structures*/
 		this.initdata(svg_canvas);
 		display(svg_canvas);
