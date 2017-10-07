@@ -4,4 +4,4 @@ This project was developed as part of CSCE 667: Curation and Ideation. The idea 
 
 Inspiration for monadic visualization was taken from: http://mariandoerk.de/monadicexploration/demo
 
-![alt text](https://github.com/jcherian42/startups-visualization/tree/master/img/demo.gif "Demo")
+![Demo](img/demo.gif "Demo")
